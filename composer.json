@@ -1,0 +1,29 @@
+{
+    "name": "pricewatch/throttlestorage",
+    "description": "PriceWatch ThrottleStorage - phpredis storage for Stiphle library. Stiphle is a little library to try and provide an easy way of throttling/rate limit requests.",
+    "type": "library",
+    "require": {
+        "davedevelopment/stiphle": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PriceWatch\\ThrottleStorage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "michalsn",
+            "email": "m.sniatala@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    }
+}
